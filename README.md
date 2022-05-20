@@ -1,9 +1,9 @@
-#Rancilio Silvia espresso machine mod
-##Introduction
+# Rancilio Silvia espresso machine mod
+## Introduction
 This modification was inspired by PostModernDesign's mod found here: https://github.com/PostModernDesign/RancilioBrain
 The project aim is to create a mod for the rancilio silvia espresso machine, enabling gravimetric extraction.
 Gravimetric extraction is the use of mass as the control variable for extraction amount. Thus, scales will be fitted in the machines drip tray and an arduino will control the pump, shutting it of to achieve a predefined chosen target weight. 
-##Hardware
+## Hardware
 The project uses an Arduino Nano Every as the microcontroller. A rotary encoder is used as the input method to adjust target weight and move between states.
 Two loadcells are used to measure the weight of coffee out of the machine. These loadcells are input into HX711 amplifiers to create the signal read by the Arduino.
 An SSD1306 OLED display is used to display state information.
