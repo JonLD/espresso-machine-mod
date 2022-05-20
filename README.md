@@ -7,7 +7,8 @@ Gravimetric extraction is the use of mass as the control variable for extraction
 The project uses an Arduino Nano Every as the microcontroller. A rotary encoder is used as the input method to adjust target weight and move between states.
 Two loadcells are used to measure the weight of coffee out of the machine. These loadcells are input into HX711 amplifiers to create the signal read by the Arduino.
 An SSD1306 OLED display is used to display state information.
-##Software
+
+## Software
 The code is written in C++ for Arduino. Libraries ares used for OLED control and reading from HX711.
 
 The device runs in 3 states:
